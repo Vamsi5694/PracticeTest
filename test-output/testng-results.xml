@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-10-03T14:00:21 IST" name="suite1" finished-at="2020-10-03T14:00:34 IST" duration-ms="12554">
+    <groups>
+    </groups>
+    <test started-at="2020-10-03T14:00:21 IST" name="test1" finished-at="2020-10-03T14:00:34 IST" duration-ms="12554">
+      <class name="com.execution.Amazon">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.execution.Amazon@503d687a]" started-at="2020-10-03T13:59:25 IST" name="setup" finished-at="2020-10-03T14:00:21 IST" duration-ms="56509" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="webScraping()[pri:0, instance:com.execution.Amazon@503d687a]" started-at="2020-10-03T14:00:22 IST" name="webScraping" finished-at="2020-10-03T14:00:34 IST" duration-ms="11720" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webScraping -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.execution.Amazon@503d687a]" started-at="2020-10-03T14:00:34 IST" name="teardown" finished-at="2020-10-03T14:00:35 IST" duration-ms="802" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.execution.Amazon -->
+    </test> <!-- test1 -->
+  </suite> <!-- suite1 -->
+</testng-results>
