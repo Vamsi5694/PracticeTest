@@ -145,6 +145,9 @@
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;suite1&quot;&gt;
   &lt;parameter name=&quot;browserName&quot; value=&quot;chrome&quot;/&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.setup.TestListner&quot;/&gt;
+  &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;test1&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.execution.AmazonTest&quot;/&gt;
@@ -191,12 +194,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'webScraping')
 data.setCell(0, 2, 'com.execution.AmazonTest')
-data.setCell(0, 3, 8026);
+data.setCell(0, 3, 7722);
 window.suiteTableData['suite1']= { tableData: data, tableDiv: 'times-div-suite1'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 8 seconds</span>
+              <span class="suite-total-time">Total running time: 7 seconds</span>
               <div id="times-div-suite1">
               </div> <!-- times-div-suite1 -->
             </div> <!-- times-div -->
@@ -229,11 +232,11 @@ return data;
               </div> <!-- configuration-suite before -->
               <div class="test-method">
                 <span class="method-name">webScraping</span>
-                <span class="method-start">47005 ms</span>
+                <span class="method-start">11934 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-suite after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">55213 ms</span>
+                <span class="method-start">22117 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

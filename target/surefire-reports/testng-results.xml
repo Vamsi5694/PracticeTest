@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="suite1" duration-ms="8263" started-at="2020-10-04T11:34:09 IST" finished-at="2020-10-04T11:34:17 IST">
+  <suite name="suite1" duration-ms="7835" started-at="2020-10-10T17:07:35 IST" finished-at="2020-10-10T17:07:43 IST">
     <groups>
     </groups>
-    <test name="test1" duration-ms="8263" started-at="2020-10-04T11:34:09 IST" finished-at="2020-10-04T11:34:17 IST">
+    <test name="test1" duration-ms="7835" started-at="2020-10-10T17:07:35 IST" finished-at="2020-10-10T17:07:43 IST">
       <class name="com.execution.AmazonTest">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.execution.AmazonTest@4dfa3a9d]" name="setup" is-config="true" duration-ms="46774" started-at="2020-10-04T11:33:22 IST" finished-at="2020-10-04T11:34:09 IST">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.execution.AmazonTest@2f686d1f]" name="setup" is-config="true" duration-ms="11854" started-at="2020-10-10T17:07:23 IST" finished-at="2020-10-10T17:07:35 IST">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="webScraping()[pri:0, instance:com.execution.AmazonTest@4dfa3a9d]" name="webScraping" duration-ms="8026" started-at="2020-10-04T11:34:09 IST" finished-at="2020-10-04T11:34:17 IST">
+        <test-method status="PASS" signature="webScraping()[pri:0, instance:com.execution.AmazonTest@2f686d1f]" name="webScraping" duration-ms="7722" started-at="2020-10-10T17:07:35 IST" finished-at="2020-10-10T17:07:43 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- webScraping -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.execution.AmazonTest@4dfa3a9d]" name="teardown" is-config="true" duration-ms="751" started-at="2020-10-04T11:34:17 IST" finished-at="2020-10-04T11:34:18 IST">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.execution.AmazonTest@2f686d1f]" name="teardown" is-config="true" duration-ms="682" started-at="2020-10-10T17:07:45 IST" finished-at="2020-10-10T17:07:46 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
